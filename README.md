@@ -254,3 +254,5 @@ if __name__ == "__main__":
                                        title_prefix='Vs Velocity Distribution')
     plt.show()
 ```
+![Vp model](Vp.png)
+![Vs model](Vs.png)
