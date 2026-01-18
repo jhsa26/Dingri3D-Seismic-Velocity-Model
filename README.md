@@ -232,7 +232,7 @@ if __name__ == "__main__":
     # 1. Save your data as a text file, e.g., 'velocity_data.txt'
     # 2. Ensure column name format: Lon.    Lat.    Z(km)  Vp(km/s)  Vp_resolution   Vs(km/s)  Vs_resolution
     # Read data
-    data = load_data('Dingri-model3d-Vp-Vs.txt')  # Replace with your file name
+    data = load_data('Dingri-model3d-Vp-Vs')  # Replace with your file name
     
     # Display data information
     depth_counts = show_data_info(data)
