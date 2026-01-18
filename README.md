@@ -1,4 +1,7 @@
 # 3-D seismic velocity model of Dingri area
+
+The provided Python code creates 2D horizontal slice visualizations of the seismic tomography results. It filters the inverted Vp and Vs velocity models to show only data with resolution values above 0.85, highlighting the well-constrained regions of the model.
+
 ```python
 import numpy as np
 import matplotlib.pyplot as plt
